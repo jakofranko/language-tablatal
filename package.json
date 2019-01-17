@@ -1,0 +1,25 @@
+{
+    "name": "language-tablatal",
+    "version": "0.0.0",
+    "description": "A syntax highlighting package for a static file data language by Devine Lu Linvega called \"Tablatal\"",
+    "scripts": {
+        "test": "npm test"
+    },
+    "keywords": [
+        "language",
+        "syntax",
+        "highlighting",
+        "tablatal",
+        "oscean",
+        "atom"
+    ],
+    "author": "Jake Franklin <jacob.d.franklin@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+        "tree-sitter-tablatal": "^1.0.0"
+    },
+    "repository": "https://github.com/jakofranko/language-tablatal",
+    "engines": {
+        "atom": "*",
+    },
+}

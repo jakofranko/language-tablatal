@@ -1,0 +1,12 @@
+name: 'Tablatal'
+scopeName: 'tablatal'
+type: 'tree-sitter'
+parser: 'tree-sitter-tablatal'
+fileTypes: ['tbtl', 'tome', 'ma']
+
+scopes:
+    'header_definition': 'language.constant.tablatal'
+    'row_definition': 'entity.name.tablatal'
+
+comments:
+    start: '~ '
