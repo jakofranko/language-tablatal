@@ -16,7 +16,7 @@
     "author": "Jake Franklin <jacob.d.franklin@gmail.com>",
     "license": "MIT",
     "dependencies": {
-        "tree-sitter-tablatal": "^1.1.0"
+        "tree-sitter-tablatal": "^1.2.0"
     },
     "repository": "https://github.com/jakofranko/language-tablatal",
     "engines": {
