@@ -1,6 +1,6 @@
 {
     "name": "language-tablatal",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "description": "A syntax highlighting package for a static file data language by Devine Lu Linvega called \"Tablatal\"",
     "scripts": {
         "test": "npm test"
