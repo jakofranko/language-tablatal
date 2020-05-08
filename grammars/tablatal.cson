@@ -1,13 +1,17 @@
 name: 'Tablatal'
 scopeName: 'tablatal'
-type: 'tree-sitter'
-parser: 'tree-sitter-tablatal'
 fileTypes: ['tbtl', 'tome', 'ma']
-
-scopes:
-    'header_definition': 'language.constant.tablatal'
-    'row_definition': 'entity.name.tablatal'
-    'comment_definition': 'comment.block.tablatal'
-
-comments:
-    start: '~ '
+patterns: [
+    {
+        match: '~ '
+        name: 'language.constant.tablatal'
+    }
+    {
+        match: '@ '
+        name: 'entity.name.tablatal'
+    }
+    {
+        match: '[^@~]'
+        name: 'comment.block.tablatal'
+    }
+]
