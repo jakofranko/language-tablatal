@@ -5,8 +5,8 @@ type: 'tree-sitter'
 parser: 'tree-sitter-tablatal'
 
 scopes:
-    'header_definition': 'language.constant.tablatal'
-    'row_definition': 'entity.name.tablatal'
+    'header_definition': 'language.constant.tablatal.header'
+    'row_definition': 'entity.string.tablatal.row'
     'comment_definition': 'comment.block.tablatal'
 
 comments:
