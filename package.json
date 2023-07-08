@@ -23,6 +23,6 @@
         "atom": "*"
     },
     "devDependencies": {
-        "electron-rebuild": "^1.10.1"
+        "electron-rebuild": "^3.2.9"
     }
 }
